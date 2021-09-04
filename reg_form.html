@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On 08_08_21(lecture 02)task_02</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<style>
+    h3{
+        font-family: sans-serif;
+        size: 25px;
+    }
+
+    table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 60%;
+        }
+        
+        td, th {
+          border: 1px solid #F9F3F3;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #E7D9D9;
+        }
+        tr:nth-child(odd) {
+          background-color: #FEFDFD;
+        }
+
+ 
+</style>
+
+<body>
+    <center>
+
+    <h3>Student Registration</h3>
+    <fieldset style="width: 0%;">
+        <form action="#" method="POST">
+
+            <table>
+                <tr>
+                    <td>Full Name</td>
+                    <td><input type="text"/></td>
+                </tr>
+
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date"/></td>
+                </tr>
+
+                <tr>
+                    <td>Department</td>
+                    <td>
+                        <select>
+                            <option>CSE</option>
+                            <option>ECE</option>
+                            <option>BBA</option>
+                            <option>ENG</option>
+                            <option>LAW</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Roll</td>
+                    <td><input type="number" placeholder="35000"/></td>
+                </tr>
+
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" placeholder="example@mail.com"/></td>
+                </tr>
+
+                <tr>
+                    <td>Interest In</td>
+                    <td>
+                        <input type="checkbox" value="Cricket"/>Cricket<br>
+                        <input type="checkbox" value="Football"/>Football<br>
+                        <input type="checkbox" value="Handball"/>Handball<br>
+                        <input type="checkbox" value="Badminton"/>Badminton
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Program Status</td>
+                    <td>
+                        <input type="radio" name="Program_Status" value="Morning"/>Morning<br>
+                        <input type="radio" name="Program_Status" value="Evening"/>Evening
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Enter Password</td>
+                    <td><input type="password" placeholder="**********"/></td>
+                </tr>
+
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input type="password" placeholder="**********"/></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit" style="width: 100%;"/></td>
+                </tr>
+            </table>
+
+        </form>
+    </fieldset>
+</center>
+</body>
+</html>
